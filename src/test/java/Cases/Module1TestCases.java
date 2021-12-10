@@ -17,8 +17,8 @@ public class Module1TestCases extends BaseTest {
 		page.Login();
 		for (int i = 0; i < 5; i++) {
 			ExtentTest node = test.createNode("node " + i);
-			System.out.println("Inside Module1_Test1+" + "\"node \"+i");
-			node.info("Inside Module1_Test1+" + "\"node \"+i");
+			System.out.println("Inside Module1_Test1+" + "\"node \"+"+i);
+			node.info("Inside Module1_Test1  node "+i);
 		}
 	}
 
@@ -30,8 +30,8 @@ public class Module1TestCases extends BaseTest {
 
 		for (int i = 0; i < 5; i++) {
 			ExtentTest node = test.createNode("node " + i);
-			System.out.println("Inside Module1_Test2+" + "\"node \"+i");
-			node.info("Inside Module1_Test2+" + "\"node \"+i");
+			System.out.println("Inside Module1_Test2+" + "\"node \"+"+i);
+			node.info("Inside Module1_Test2  node "+i);
 		}
 
 	}
