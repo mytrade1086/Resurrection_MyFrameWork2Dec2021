@@ -28,6 +28,14 @@ public class BaseTest {
 	protected BasePage base;
 	protected Properties prop;
 	protected WebDriver driver;
+	
+	
+	
+//	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
+//
+//	public static synchronized WebDriver getDriver() {
+//		return tlDriver.get();
+//	}
 
 	@BeforeSuite
 	public void setExtent() {
@@ -57,7 +65,6 @@ public class BaseTest {
 	@AfterMethod
 	public void afterMEthod() {
 		System.out.println("executing after method");
-		
 		driver.quit();
 	}
 	

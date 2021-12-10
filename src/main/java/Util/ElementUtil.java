@@ -34,9 +34,9 @@ public class ElementUtil extends Base.BasePage {
 		try {
 			System.out.println("locator is : " + locator);
 			element = driver.findElement(locator);
-			if (prop.getProperty("highlight").equalsIgnoreCase("yes")) {
-				jsUtil.flash(element);
-			}
+//			if (prop.getProperty("highlight").equalsIgnoreCase("yes")) {
+//				jsUtil.flash(element);
+//			}
 			System.out.println("WebElement is created successfully : " + locator);
 
 		} catch (Exception e) {
@@ -196,6 +196,13 @@ public class ElementUtil extends Base.BasePage {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
 		wait.until(ExpectedConditions.visibilityOf(element));
 		return element;
+	}
+	
+	public WebElement waitForElementToBeVisible2(By locator, int timeout) {
+	WebElement element = null;
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+	element=wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	return element;
 	}
 
 	public WebElement waitForElementToBeClickable(By locator, int timeout) {

@@ -70,7 +70,8 @@ public class BasePage {
 		}
 
 		getDriver().manage().deleteAllCookies();
-		getDriver().manage().window().fullscreen();
+		//getDriver().manage().window().fullscreen();
+		getDriver().manage().window().maximize();
 		getDriver().get(prop.getProperty("url"));
 		return getDriver();
 
