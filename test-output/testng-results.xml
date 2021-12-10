@@ -1,99 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45292" started-at="2021-12-10T10:56:05 IST" finished-at="2021-12-10T10:56:51 IST">
+  <suite name="Default suite" duration-ms="2004" started-at="2021-12-10T21:25:48 IST" finished-at="2021-12-10T21:25:50 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="45292" started-at="2021-12-10T10:56:05 IST" finished-at="2021-12-10T10:56:51 IST">
-      <class name="Cases.Module2TestCases">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:Cases.Module2TestCases@87f383f]" name="setExtent" is-config="true" duration-ms="347" started-at="2021-12-10T10:56:05 IST" finished-at="2021-12-10T10:56:05 IST">
+    <test name="Default test" duration-ms="2004" started-at="2021-12-10T21:25:48 IST" finished-at="2021-12-10T21:25:50 IST">
+      <class name="dummy.dummy">
+        <test-method status="PASS" signature="Das()[pri:0, instance:dummy.dummy@12f41634]" name="Das" duration-ms="1919" started-at="2021-12-10T21:25:48 IST" finished-at="2021-12-10T21:25:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Cases.Module2TestCases@87f383f]" name="beforeMethod" is-config="true" duration-ms="8548" started-at="2021-12-10T10:56:05 IST" finished-at="2021-12-10T10:56:14 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Cases.Module2TestCases.Module2_Test1() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Module2_Test1()[pri:0, instance:Cases.Module2TestCases@87f383f]" name="Module2_Test1" duration-ms="4436" started-at="2021-12-10T10:56:14 IST" finished-at="2021-12-10T10:56:18 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Module2_Test1 -->
-        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:Cases.Module2TestCases@87f383f]" name="afterMEthod" is-config="true" duration-ms="1692" started-at="2021-12-10T10:56:18 IST" finished-at="2021-12-10T10:56:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMEthod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Cases.Module2TestCases@87f383f]" name="beforeMethod" is-config="true" duration-ms="3879" started-at="2021-12-10T10:56:20 IST" finished-at="2021-12-10T10:56:24 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Cases.Module2TestCases.Module2_Test2() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Module2_Test2()[pri:0, instance:Cases.Module2TestCases@87f383f]" name="Module2_Test2" duration-ms="3921" started-at="2021-12-10T10:56:24 IST" finished-at="2021-12-10T10:56:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Module2_Test2 -->
-        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:Cases.Module2TestCases@87f383f]" name="afterMEthod" is-config="true" duration-ms="1366" started-at="2021-12-10T10:56:28 IST" finished-at="2021-12-10T10:56:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMEthod -->
-        <test-method status="PASS" signature="flushExtent()[pri:0, instance:Cases.Module2TestCases@87f383f]" name="flushExtent" is-config="true" duration-ms="2742" started-at="2021-12-10T10:56:51 IST" finished-at="2021-12-10T10:56:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushExtent -->
-      </class> <!-- Cases.Module2TestCases -->
-      <class name="Cases.Module1TestCases">
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Cases.Module1TestCases@4eb7f003]" name="beforeMethod" is-config="true" duration-ms="3834" started-at="2021-12-10T10:56:29 IST" finished-at="2021-12-10T10:56:33 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Cases.Module1TestCases.Module1_Test1() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Module1_Test1()[pri:0, instance:Cases.Module1TestCases@4eb7f003]" name="Module1_Test1" duration-ms="4408" started-at="2021-12-10T10:56:33 IST" finished-at="2021-12-10T10:56:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Module1_Test1 -->
-        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:Cases.Module1TestCases@4eb7f003]" name="afterMEthod" is-config="true" duration-ms="1185" started-at="2021-12-10T10:56:38 IST" finished-at="2021-12-10T10:56:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMEthod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Cases.Module1TestCases@4eb7f003]" name="beforeMethod" is-config="true" duration-ms="3606" started-at="2021-12-10T10:56:39 IST" finished-at="2021-12-10T10:56:42 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Cases.Module1TestCases.Module1_Test2() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Module1_Test2()[pri:0, instance:Cases.Module1TestCases@4eb7f003]" name="Module1_Test2" duration-ms="6045" started-at="2021-12-10T10:56:42 IST" finished-at="2021-12-10T10:56:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Module1_Test2 -->
-        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:Cases.Module1TestCases@4eb7f003]" name="afterMEthod" is-config="true" duration-ms="2274" started-at="2021-12-10T10:56:48 IST" finished-at="2021-12-10T10:56:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMEthod -->
-      </class> <!-- Cases.Module1TestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Das -->
+      </class> <!-- dummy.dummy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
