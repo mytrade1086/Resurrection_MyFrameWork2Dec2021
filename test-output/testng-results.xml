@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2004" started-at="2021-12-10T21:25:48 IST" finished-at="2021-12-10T21:25:50 IST">
+  <suite name="Default suite" duration-ms="2515" started-at="2021-12-11T21:55:36 IST" finished-at="2021-12-11T21:55:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2004" started-at="2021-12-10T21:25:48 IST" finished-at="2021-12-10T21:25:50 IST">
+    <test name="Default test" duration-ms="2515" started-at="2021-12-11T21:55:36 IST" finished-at="2021-12-11T21:55:38 IST">
       <class name="dummy.dummy">
-        <test-method status="PASS" signature="Das()[pri:0, instance:dummy.dummy@12f41634]" name="Das" duration-ms="1919" started-at="2021-12-10T21:25:48 IST" finished-at="2021-12-10T21:25:50 IST">
+        <test-method status="PASS" signature="Das()[pri:0, instance:dummy.dummy@262b2c86]" name="Das" duration-ms="2437" started-at="2021-12-11T21:55:36 IST" finished-at="2021-12-11T21:55:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Das -->
