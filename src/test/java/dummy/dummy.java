@@ -97,7 +97,6 @@ public class dummy {
 				aData[i] = data;
 			}
 		}
-
 		else {
 			throw new Exception(sheetName + " does not have any rows");
 		}

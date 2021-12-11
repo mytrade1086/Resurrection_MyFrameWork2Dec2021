@@ -24,7 +24,6 @@ public class BaseTest {
 	public ExtentSparkReporter spark;
 	public static ExtentReports extent;
 	public static ExtentTest test;
-
 	protected BasePage base;
 	protected Properties prop;
 	protected WebDriver driver;
