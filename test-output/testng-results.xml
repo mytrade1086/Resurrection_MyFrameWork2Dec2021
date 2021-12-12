@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2515" started-at="2021-12-11T21:55:36 IST" finished-at="2021-12-11T21:55:38 IST">
+  <suite name="Default suite" duration-ms="35499" started-at="2021-12-12T20:02:33 IST" finished-at="2021-12-12T20:03:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2515" started-at="2021-12-11T21:55:36 IST" finished-at="2021-12-11T21:55:38 IST">
-      <class name="dummy.dummy">
-        <test-method status="PASS" signature="Das()[pri:0, instance:dummy.dummy@262b2c86]" name="Das" duration-ms="2437" started-at="2021-12-11T21:55:36 IST" finished-at="2021-12-11T21:55:38 IST">
+    <test name="Default test" duration-ms="35499" started-at="2021-12-12T20:02:33 IST" finished-at="2021-12-12T20:03:08 IST">
+      <class name="Cases.Module2TestCases">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="setExtent" is-config="true" duration-ms="525" started-at="2021-12-12T20:02:32 IST" finished-at="2021-12-12T20:02:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Das -->
-      </class> <!-- dummy.dummy -->
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="beforeMethod" is-config="true" duration-ms="16852" started-at="2021-12-12T20:02:33 IST" finished-at="2021-12-12T20:02:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Cases.Module2TestCases.Module2_Test1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Module2_Test1()[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="Module2_Test1" duration-ms="5004" started-at="2021-12-12T20:02:50 IST" finished-at="2021-12-12T20:02:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2_Test1 -->
+        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="afterMEthod" is-config="true" duration-ms="1819" started-at="2021-12-12T20:02:55 IST" finished-at="2021-12-12T20:02:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMEthod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="beforeMethod" is-config="true" duration-ms="5748" started-at="2021-12-12T20:02:57 IST" finished-at="2021-12-12T20:03:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Cases.Module2TestCases.Module2_Test2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Module2_Test2()[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="Module2_Test2" duration-ms="4457" started-at="2021-12-12T20:03:02 IST" finished-at="2021-12-12T20:03:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Module2_Test2 -->
+        <test-method status="PASS" signature="afterMEthod()[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="afterMEthod" is-config="true" duration-ms="1487" started-at="2021-12-12T20:03:07 IST" finished-at="2021-12-12T20:03:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMEthod -->
+        <test-method status="PASS" signature="flushExtent()[pri:0, instance:Cases.Module2TestCases@4eb7f003]" name="flushExtent" is-config="true" duration-ms="1305" started-at="2021-12-12T20:03:08 IST" finished-at="2021-12-12T20:03:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtent -->
+      </class> <!-- Cases.Module2TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

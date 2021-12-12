@@ -234,5 +234,30 @@ public class ElementUtil extends Base.BasePage {
 		wait.until(ExpectedConditions.titleContains(title));
 		return driver.getTitle();
 	}
+	
+	
+	
+	//new Methods
+	
+	
+	public void SendRequest() {
+		
+		
+		
+		
+	}
+	
+	
+	
+	public void ReadResponseList() {
+		
+		
+		
+		
+		
+	}
+	
+	
+	public void ClickButtonFromMenu() {}
 
 }
